@@ -12,17 +12,18 @@ This project demonstrates an **Edge AI application** that integrates the **Ultra
 
 ## Requirements
 - Python 3.8 or later
-- Required packages:
+- Required packages:  ultralytics opencv-python ollama numpy
 
 ```bash
 pip install ultralytics opencv-python ollama numpy
-
-
+```
+##Basic Command
+```bash
 python detect_report.py \
   --model runs/detect/train/weights/best.pt \
   --source usb0 \
   --thresh 0.4 \
   --resolution 640x480 \
   --record
-
+```
 
