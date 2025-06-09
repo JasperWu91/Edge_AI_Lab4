@@ -17,7 +17,7 @@ This project demonstrates an **Edge AI application** that integrates the **Ultra
 ```bash
 pip install ultralytics opencv-python ollama numpy
 ```
-##Basic Command
+## Basic Command
 ```bash
 python detect_report.py \
   --model runs/detect/train/weights/best.pt \
