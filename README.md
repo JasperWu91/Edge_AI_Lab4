@@ -19,7 +19,7 @@ pip install ultralytics opencv-python ollama numpy
 ```
 ## Basic Command
 ```bash
-python detect_report.py \
+python detect.py \
   --model runs/detect/train/weights/best.pt \
   --source usb0 \
   --thresh 0.4 \
