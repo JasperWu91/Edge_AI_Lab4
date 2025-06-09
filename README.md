@@ -5,7 +5,7 @@ This project demonstrates an **Edge AI application** that integrates the **Ultra
 
 ## Features
 
-- Real-time object detection using YOLOv8.
+- Real-time object detection using YOLOv11.
 - Supports multiple input sources: image file, folder, video file, USB webcam, or PiCamera.
 - Records detection results at 10s, 20s, and 30s into a JSON file.
 - Automatically generates a short 2–3 sentence summary using Ollama LLM (`llama3.2`).
@@ -17,10 +17,12 @@ This project demonstrates an **Edge AI application** that integrates the **Ultra
 ```bash
 pip install ultralytics opencv-python ollama numpy
 
-## Basic Command
+
 python detect_report.py \
   --model runs/detect/train/weights/best.pt \
   --source usb0 \
   --thresh 0.4 \
   --resolution 640x480 \
   --record
+
+
