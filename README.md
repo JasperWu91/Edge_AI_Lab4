@@ -1,4 +1,4 @@
-# Edge AI Lab4 - YOLOv8 + Ollama Report Generator
+# Edge AI Lab4 - YOLOv11 + Ollama Report Generator
 This project demonstrates an **Edge AI application** that integrates the **Ultralytics YOLO model** with the **LLM model `llama3.2:1B`** to perform real-time object detection and generate **automated summaries**. It supports input from images, folders, videos, and USB cameras, and captures detection results every 10 seconds over a 30-second window for summarization using Ollama.
 
 ---
